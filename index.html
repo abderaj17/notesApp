@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Notes App</h1>
+        <button id="add-note-btn" class="btn-primary">Add Note</button>
+    </header>
+
+    <main class="container">
+        <div id="notes-container" class="notes-container">
+            <!-- Notes will be dynamically added here -->
+        </div>
+    </main>
+
+    <!-- Modal for adding/editing notes -->
+    <div id="note-modal" class="modal">
+        <div class="modal-content">
+            <textarea id="note-textarea" placeholder="Type your note here..."></textarea>
+            <button id="save-note-btn" class="btn-primary">Save Note</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
